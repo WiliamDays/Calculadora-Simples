@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="tela"></div>
+        <div id="botoes">
+            <button onclick="digito('(')">(</button>
+            <button onclick="digito(')')">)</button>
+            <button onclick="digito('%')">%</button>
+            <button onclick="limpar()">AC</button>
+
+            <button onclick="digito('7')">7</button>
+            <button onclick="digito('8')">8</button>
+            <button onclick="digito('9')">9</button>
+            <button onclick="digito('/')">/</button>
+
+            <button onclick="digito('4')">4</button>
+            <button onclick="digito('5')">5</button>
+            <button onclick="digito('6')">6</button>
+            <button onclick="digito('x')">x</button>
+
+            <button onclick="digito('1')">1</button>
+            <button onclick="digito('2')">2</button>
+            <button onclick="digito('3')">3</button>
+            <button onclick="digito('-')">-</button>
+
+            <button onclick="digito('0')">0</button>
+            <button onclick="digito(',')">,</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="digito('+')">+</button>
+        </div>
+    </div>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
